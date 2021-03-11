@@ -1,0 +1,25 @@
+region = "ap-northeast-2"
+
+project = "tour"
+
+lambda_function_name  = "pm-page"
+apigateway_name       = "pm-apigw"
+apigateway_desc       = "prevention management page open/close api"
+
+pm_nlb_name           = "nlb-pm"
+pm_targetgroup_80        = "tg-pm"
+
+service_lb_name         = "testnlb"
+service_tagetgroup_80   = "testtg"
+service_tagetgroup_443  = "testtg443"
+
+tags  = {
+    developer-number  = "1101388"
+    engineer-number   = "1101388"
+    develop-team      = "cloud-engineering-team"
+    project           = "tour"
+    environment       = "dev-tour"
+    itsm              = "1"
+    repo              = "terraform-env-alpha" 
+    GithubOrg         = "11stcorp" 
+  }
